@@ -4,33 +4,74 @@
 
 <style>
 body {background-color: hsl(30, 54%, 90%);}
-//h1   {color: hsl(14, 45%, 36%);}
-//p    {color: hsl(14, 45%, 36%);}
-pre {color: hsl(14, 45%, 36%);}
-//ul {color: hsl(14, 45%, 36%);}
-//ol {color: hsl(14, 45%, 36%);}
-h3 {color: hsl(332, 51%, 32%);}
-h2 {color: hsl(14, 45%, 36%);}
+h1   {font-family: young-serif;}
+img {
+  border-radius: 15px;
+  }
+p    {
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+  font-family: outfit;
+  }
+<!--pre {color: hsl(14, 45%, 36%);}-->
+ul {
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+  font-family: outfit;
+  }
+ol {
+  color: hsl(30, 10%, 34%);
+  line-height: 2;
+  font-family: outfit;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: young-serif
+  }
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: young-serif
+}
 div {
   background-color: hsl(0, 0%, 100%);
-  width: 1440px;
+  max-width: 590px;
+  position: static;
   padding: 50px;
   margin: 20px;
   border-radius: 15px
 }
 
-div2 {
+div.n1 {
   background-color: hsl(330, 100%, 98%);
-  width: 1440px;
-  padding: 20px;
+  margin: 1px;
+  padding: 15px;
   border-radius: 15px
 }
-ul {
-  line-height: 2;
+
+table {
+  font-family: outfit;
+  color: hsl(30, 10%, 34%);
+  border-collapse: collapse;
+  width: 100%;
 }
-ol {
-  line-height: 2;
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+td.n1 {
+  color: hsl(14, 45%, 36%);
+}
+
+hr.new1 {
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
 </style>
 
 <div>
@@ -38,7 +79,7 @@ ol {
 <h1>Simple Omelette Recipe </h1>
 <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
-
+<div class="n1">
 <h3>
 Preparation time</h3>
 <ul>
@@ -46,7 +87,7 @@ Preparation time</h3>
   <li><b>Preparation:</b> 5 minutes</li>
   <li><b>Cooking:</b> 5 minutes</li>
 </ul>
-
+</div>
 
 
 <h2>Ingredients</h2>
@@ -57,8 +98,9 @@ Preparation time</h3>
 <li>1 tablespoon of butter or oil</li>
 <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
 </ul>
-<hr>
+<hr class="new1">
 <h2>Instructions</h2>
+
 <ol>
   <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
   <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -68,30 +110,32 @@ Preparation time</h3>
   <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
 </ol>
 
+<hr class="new1">
+
 <h2>Nutrition</h2>
 <p>The table below shows nutritional values per serving without the additional fillings.</p>
 <table>
 <tr>
   <td>Calories</td> 
-  <td>277kcal</td>
+  <td class="n1"><b>277kcal</b></td>
 </tr>
 
 <tr>
   <td>Carbs</td> 
-  <td>0g</td>
+  <td class="n1"><b>0g</b></td>
 </tr>
 
 <tr>
   <td>Protein</td> 
-  <td>20g</td>
+  <td class="n1"><b>20g</b></td>
 </tr>
 
 <tr>  
   <td>Fat</td> 
-  <td>22g</td>
+  <td class="n1"><b>22g</b></td>
 </tr>
 </table>
-<p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by Riley</p>
+<!--<p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by Riley</p>-->
 </div>
 
 </body>
